@@ -1,0 +1,14 @@
+unsigned int a,b,c,i;
+
+unsigned int x = 10;
+int y = 0xFF;
+int z = 077;
+
+int main(){
+    unsigned int n = x;
+    n = y * z;
+    z++;
+    i = z - n;
+    c = (n/2*3-10+50) > 0;
+    return 0;
+}

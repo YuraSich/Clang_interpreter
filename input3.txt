@@ -1,0 +1,21 @@
+int f1(int param){
+    param = param * param;
+    return param;
+}
+
+int f2(int i, unsigned int j){
+    int r;
+    r = i + j;
+    return r;
+}
+
+int main()
+{
+    //int h = 1;
+    unsigned int w = 2;
+    h = h + 2;
+    f1(12);
+    int d = f2(4,f1(7));
+
+}
+

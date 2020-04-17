@@ -1,0 +1,13 @@
+int fun(int i){
+    while(i <= 0)
+        return 1;
+    while(i == 1)
+        return 1;
+    return (fun(i-1) * i);
+}
+
+int main()
+{
+    int s = fun(10);
+}
+
